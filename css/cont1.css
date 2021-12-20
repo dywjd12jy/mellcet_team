@@ -1,0 +1,79 @@
+/*reset*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /*    font-family: 'Playfair Display', serif;*/
+}
+
+img {
+  display: block;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#header {
+  position: relative;
+  height: 150px;
+}
+
+/*container*/
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.row {
+  padding: 0 28px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.title span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.8em;
+  color: #82A7F0;
+  margin-bottom: 0.9vh;
+}
+
+.title::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.3em;
+  width: 0.3em;
+  height: 2.5vh;
+  background-color: #82A7F0;
+}
+
+#cont1 .slider ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+#cont1 .slider ul li > div {
+  width: 14vw;
+  height: 50px;
+  background-color: #111a39;
+}
+/*# sourceMappingURL=cont1.css.map */

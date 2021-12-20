@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Pretendard', 'Noto Sans KR', 'Open Sans', sans-serif;;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+  }
+  
+  label {
+    cursor: pointer;
+  }
+  iframe{
+    border: none;
+  }
+  ul, li, dl, dt, dd {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  i {
+    font-style: normal;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  table{
+    border-spacing: 0;
+  }
+  header, footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  section>div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .text_right {
+    text-align: right;
+  }
+  
+  .text_center {
+    text-align: center;
+  }
+  
+  .text_left {
+    text-align: left;
+  }
+  
+  .column {
+    flex-direction: column;
+  }
+  
+  .table {
+    display: table;
+  }
+  
+  .cell {
+    display: table-cell;
+  }
+  
+  .row {
+    display: table-row;
+  }
